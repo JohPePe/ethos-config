@@ -1,7 +1,7 @@
 custompanel qmrigsPASSWD
 maxgputemp 75
 stratumproxy enabled
-proxywallet 0xfbddedae843534f61ad06cd339d744525f291414
+proxywallet 0x60D4c58a25EF04be37ce346283878C5283365632
 proxypool1 eth-us-west1.nanopool.org:9999
 proxypool2 eth-us-east1.nanopool.org:9999
 flags --cl-global-work 8192 --farm-recheck 200
@@ -9,6 +9,7 @@ flags -logfile noappend.txt
 globalfan 100
 autoreboot true
 
+#AMD
 loc b13e38 redxfx
 miner b13e38 claymore
 core b13e38 1100 1100 1100 1100 1100 1100
@@ -17,6 +18,7 @@ mem b13e38 2250 2250 1950 2250 1950 2200
 pwr b13e38 4 4 4 4 4 4
 reb b13e38 1
 
+#AMD
 loc 93231a whitexfx
 miner 93231a claymore
 cor 93231a 1100 1100 1100 1100 1100 1100
@@ -24,16 +26,19 @@ mem 93231a 2050 2050 2100 2050 1900 2150
 pwr 93231a 4 4 4 4 4 4
 reb 93231a 6
 
+#NVidia
 loc 9323fb founders
 miner 9323fb claymore
 mem 9323fb 5000 5000 5000 5000 5000 5000
 reb 9323fb 6
 
+#NVidia
 loc b63c41 redfan
 miner b63c41 claymore
 mem b63c41 5000 5000 5000 5000 5000 5000
 reb b63c41 2
 
+#NVidia
 loc 8dfa18 evga
 miner 8dfa18 claymore
 mem 8dfa18 5000 5000 5000 5000 5000 5000
